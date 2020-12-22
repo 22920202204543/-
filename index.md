@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/22920202204543/-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/22920202204543/-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			#header {
+			    background-color:black;
+			    color:white;
+			    text-align:center;
+			    padding:10px;
+			}
+			#box1{
+				width: 400px;
+				height: 360px;
+				background-color: black;
+				color:white;
+				font-size: 20px;
+				border-style: ridge;
+				padding:10px 10px 20px;
+				float:left;
+			}
+			#box2{
+				width: 400px;
+				height: 360px;
+				background-color: black;
+				color:white;
+				font-size: 20px;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				border-style: ridge;
+				padding:10px 10px 20px;
+				float:left;
+			}
+			#box3{
+				width: 400px;
+				height: 360px;
+				background-color: black;
+				color:white;
+				font-size: 20px;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				border-style: ridge;
+				padding:10px 10px 20px;
+				float:left;
+			}
+			body
+			{
+				background-image: url("images/back.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-color: black;
+				background-attachment: fixed;
+			}
+		</style>
+	<title>起名废在思考</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1 align="center">陈凌辉哒个人主页</h1>
+			<h3 align="center">
+			<u>Ps:咱是一个菜鸟，求求了，别骂了qwq</u></h3>
+			<p align="right"><strike>&nbsp;保佑我期末C语言不挂&nbsp;</strike></p>
+		</div>
+		<div id="box1">
+			<h4>这是个人简介:</h4>
+			<table border="2">
+				<tr>
+					<th>姓名</th>
+					<td>陈凌辉</td>
+				</tr>
+				<tr>
+					<th>性别</th>
+					<td>男<strike>&nbsp;性取向正常（欢迎小姐姐找我玩耍doge）&nbsp;</strike></td>
+				</tr>
+				<tr>
+					<th>生日</th>
+					<td>&nbsp;20030619（想知道还有没有比咱小的）&nbsp;</td>
+				</tr>
+				<tr>
+					<th>爱好</th>
+					<td>&nbsp;魔方、王者（菜但爱玩）、游戏王（yyds）&nbsp;</td>
+				</tr>
+				<tr>
+					<th>格言</th>
+					<td><strike>&nbsp;我爱学习&nbsp;</strike>&nbsp;我们都要相信光（bu shi</td>
+				</tr>
+			</table>
+		</div>
+		<div id="box2">
+			<ul>
+				<p align="left">这里是个人常用联系方式:</p>
+				<li>Tel：13339242217</li>
+				<li>QQ：3426775597</li>
+				<li>WeChat:太长了我懒得发</li>
+				<li>E-mail：3426775597@qq.com（qq邮箱，懂的都懂）</li>
+				<li>网易云音乐：乖巧的阳仔（我好像王者啥的都用的这个）</li>
+				<p><strike>&nbsp;欢迎来找我打牌（bu shi&nbsp;</strike></p>
+			</ul>
+		</div>
+		<div id="box3">
+			<ul>
+				<p align="left">顺带:</p>
+				<li>在线滴一个玩游戏王的hxd</li>
+				<li>我纯英雄卡组贼溜（doge）</li>
+				<p><strike>&nbsp;相信我不会拍出一张巨神兵爽死你&nbsp;</strike></p>
+				<p><strike>&nbsp;(手动滑稽)&nbsp;</strike></p>
+			</ul>
+		</div>
+	</body>
+</html>
